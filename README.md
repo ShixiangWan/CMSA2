@@ -20,7 +20,6 @@ Note: CUDA and C++11 environment need to be supported.
 
 ```
 ./cmsa2 [options] input_path output_path
-```
 
 Options:
 	-d	: DNA/RNA alignment (default)
@@ -32,3 +31,5 @@ Options:
 	-b <int>	: specify the number of blocks per grid
 	-t <int>	: specify the number of threads per block
 	-n <int>	: specify the number of GPU devices should be used
+```
+
