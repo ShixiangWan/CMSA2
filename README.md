@@ -1,9 +1,9 @@
 # CMSA2
 Improved Center Star Algorithm for Multiple Sequences Alignment (DNA/RNA/Protein) Based on CUDA
 
-Original project: https://github.com/wangvsa/CMSA
-Spark/Hadoop project: https://github.com/ShixiangWan/HAlign2.0
-MPI project:https://github.com/ShixiangWan/MPI-MSA
+Original project: https://github.com/wangvsa/CMSA  
+Spark/Hadoop project: https://github.com/ShixiangWan/HAlign2.0  
+MPI project:https://github.com/ShixiangWan/MPI-MSA  
 
 #### Introduction
 CMSA is a robust and efficient MSA system for large-scale datasets on the heterogeneous CPU/GPU and MIC platform. It performs and optimizes multiple sequence alignment automatically for users’ submitted sequences without any assumptions. CMSA adopts the co-run computation model so that both CPU and GPU devices are fully utilized. Moreover, CMSA proposes an improved center star strategy that reduces the time complexity of its center sequence selection process from O(mn^2) to O(mn).
